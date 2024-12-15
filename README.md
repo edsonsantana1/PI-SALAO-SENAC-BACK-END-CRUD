@@ -11,21 +11,21 @@ Este projeto é um sistema CRUD para gerenciar os serviços de um salão de bele
 
 ## Estrutura do Projeto
 
-ProjetoPI/
-├── src/
-│   ├── controllers/
-│   │   └── serviceController.ts
-│   ├── entities/
-│   │   └── service.ts
-│   ├── routes/
-│   │   └── serviceRoutes.ts
-│   ├── config/
-│   │   └── database.ts
-│   ├── app.ts
-│   └── server.ts
-├── package.json
-├── tsconfig.json
-└── README.md
+#ProjetoPI/
+#├── src/
+#│   ├── controllers/
+#│   │   └── serviceController.ts
+#│   ├── entities/
+#│   │   └── service.ts
+#│   ├── routes/
+#│   │   └── serviceRoutes.ts
+#│   ├── config/
+#│   │   └── database.ts
+#│   ├── app.ts
+#│   └── server.ts
+#├── package.json
+#├── tsconfig.json
+#└── README.md
 
 ## Como Executar
 Clone o repositório.

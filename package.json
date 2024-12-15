@@ -1,0 +1,38 @@
+{
+  "name": "projetopi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/server.ts",
+    "start": "node build/server.js",
+    "build": "rimraf .build && tsc"
+  },
+  "keywords": [
+    "Projeto",
+    "html",
+    "css",
+    "javascript",
+    "json",
+    "mysql"
+  ],
+  "author": "Edson Santana Alves",
+  "license": "ISC",
+  "description": "Projeto integrador senac, construir um site para o salão senac PE",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "pg": "^8.13.1",
+    "projetopi": "file:",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  }
+}
